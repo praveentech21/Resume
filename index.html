@@ -5,50 +5,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
+  <title>Sai Praveen</title>
+  <link rel="shortcut icon" href="Bhavani/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="Bhavani/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/0b7c9f51a0.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- Aside Bar Started Shiva -->
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="Bhavani/images/SaiPraveen.png" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Richard hanrick">Sai Praveen CH</h1>
 
-          <p class="title">Web developer</p>
+          <a href="Bhavani/Shiva/SaiPraveenResume.pdf"><p class="title" id="rama" onmouseenter="rama()" onmouseleave="krishna()" >Software Developer</p></a> 
+          <script>
+            function rama(){
+              document.getElementById('rama').innerHTML = "Download CV";
+            }
+            function krishna(){
+              document.getElementById('rama').innerHTML = "Software Developer";
+            }
+          </script>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,7 +63,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:praveen21.tech@gmail.com" class="contact-link">praveen21.tech@gmail.com</a>
             </div>
 
           </li>
@@ -88,7 +77,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="tel:9052727402" class="contact-link">91 90527 27402</a>
             </div>
 
           </li>
@@ -102,7 +91,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <time datetime="1982-06-23">Nov 21, 2003</time>
             </div>
 
           </li>
@@ -116,7 +105,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Bhimavaram, Andhra, India</address>
             </div>
 
           </li>
@@ -127,50 +116,47 @@
 
         <ul class="social-list">
 
+          
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="http://www.saipraveen.tech/" class="social-link">
+              <i class="fa-solid fa-earth-americas fa-bounce" style="color: #ffffff;"></i>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://github.com/praveentech21" class="social-link">
+              <i class="fa-brands fa-github fa-bounce" style="color: #ffffff;"></i>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://www.linkedin.com/in/praveentech21/" class="social-link">
+              <i class="fa-brands fa-linkedin-in fa-bounce" style="color: #ffffff;"></i>
             </a>
           </li>
-
+          
+          <li class="social-item">
+            <a href="https://www.instagram.com/saipraveen_ch/" class="social-link">
+              <i class="fa-brands fa-instagram fa-bounce" style="color: #ffffff;"></i>
+            </a>
+          </li>
+          
         </ul>
 
       </div>
 
     </aside>
+    <!-- Aside Bar Ended -->
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
+    <!-- Main Content Started Shiva -->
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
+      <!-- Nav Bar -->
       <nav class="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>Praveen</button>
           </li>
 
           <li class="navbar-item">
@@ -178,7 +164,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
@@ -192,16 +178,8 @@
         </ul>
 
       </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
+      <!-- About Bar Started Shiva -->
+      <article class="about  active" data-page="praveen">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -209,25 +187,17 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            Hi Everyone! <b>I am Sai Praveen</b> currently pursuing my second year BTech in Computer Science and Designing at SRKR Engineering College, Bhimavaram.
+            I am very Passionate about <b>Technology</b> and <b>Bussiness Managment</b>. <br> I had my own Startup in College named "<b>SRKR Campus Cafe</b>".A Perorder base Home Food Providing service to SRKR College Students from Household Women's
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            A part from my Start up I am doing Intenship in a Small Startup <b>Bhimavaram Online</b> from 2 Years as a <b> Lead Tech Support</b>(Console Manager), <b>Delivary Managment</b>. and <b> Adding New Stores</b> by Approching Merchants  <br>
+            As a Tech Enthusiastic Person I had Develpoed Few Websites a
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
+        <!-- Services Started Shiva -->
         <section class="service">
 
           <h3 class="h3 service-title">What i'm doing</h3>
@@ -303,11 +273,7 @@
 
         </section>
 
-
-        <!--
-          - testimonials
-        -->
-
+        <!-- testimonials Started Shiva  -->
         <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
@@ -406,11 +372,7 @@
 
         </section>
 
-
-        <!--
-          - testimonials modal
-        -->
-
+        <!-- Testimonal Modal Started Shiva -->
         <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
@@ -451,11 +413,7 @@
 
         </div>
 
-
-        <!--
-          - clients
-        -->
-
+        <!-- Clients Started Shiva -->
         <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
@@ -504,14 +462,7 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
+      <!-- Resume Started Shiva -->
       <article class="resume" data-page="resume">
 
         <header>
@@ -697,15 +648,8 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
+      <!-- Portfolio Started Shiva -->
+      <article class="portfolio" data-page="projects">
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -937,14 +881,7 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
+      <!-- BLog Started Shiva -->
       <article class="blog" data-page="blog">
 
         <header>
@@ -1129,13 +1066,7 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
+      <!-- Content Started Shiva -->
 
       <article class="contact" data-page="contact">
 
