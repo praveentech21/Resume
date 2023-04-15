@@ -157,3 +157,32 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// gallery Auto Scroll
+function openGallery() {
+  var popup = document.getElementById("galleryPopup");
+  popup.style.display = "block";
+
+  var gallery = document.createElement("div");
+  gallery.id = "imageGallery";
+  popup.appendChild(gallery);
+
+  var images = [
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg",
+    // Add more images here
+  ];
+
+  for (var i = 0; i < images.length; i++) {
+    var img = document.createElement("img");
+    img.src = images[i];
+    gallery.appendChild(img);
+  }
+
+  var scrollInterval = setInterval(function() {
+    gallery.scrollLeft += 5; // Change the scroll speed here
+  }, 50); // Change the scroll interval here
+
+  // ...
+}
