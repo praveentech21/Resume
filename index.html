@@ -204,8 +204,8 @@
           <h3 class="h3 service-title">My Achivements</h3>
 
           <ul class="service-list">
-
-            <li class="service-item" id="galleryButton" onclick="openGallery()">
+            
+            <li class="service-item">
 
               <div class="service-icon-box">
                 <img src="Bhavani/images/campuscafe.png" alt="design icon" width="40">
@@ -214,10 +214,8 @@
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">CAMPUS CAFE</h4>
 
-                <p class="service-item-text">Managing Director Of SRKR Campus Cafe Our Department <b>Own Startup</b></p>
+                <p class="service-item-text">Managing Director Of SRKR Campus Cafe <b>Dept. Startup</b></p>
               </div>
-              <div id="galleryPopup"></div>
-
 
             </li>
 
@@ -236,6 +234,13 @@
               </div>
 
             </li>
+            <script>
+              const serviceItem = document.querySelector('.service-item');
+
+serviceItem.addEventListener('click', () => {
+  alert('Popup Message Here');
+});
+            </script>
 
             <li class="service-item">
 
@@ -1140,7 +1145,39 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script>
+    // Define array of image URLs
+    var imageUrls = ['http://pranavteja.tech/img/profilepic.jpg', 'http://saipraveen.tech/Bhavani/images/SaiPraveen.png', 'http://pranavteja.tech/img/profilepic.jpg'];
+  
+    // Get the galleryPopup element
+    var galleryPopup = document.querySelector('#galleryPopup');
+  
+    // Add event listener to the li element
+    var liElement = document.querySelector('.service-item');
+    liElement.addEventListener('click', function() {
+      // Create a new div to hold the image gallery
+      var galleryDiv = document.createElement('div');
+      galleryDiv.classList.add('gallery-div');
+  
+      // Create a new img element and append it to the gallery div
+      var imgElement = document.createElement('img');
+      galleryDiv.appendChild(imgElement);
+  
+      // Set the initial image URL
+      imgElement.src = imageUrls[0];
+  
+      // Set up a timer to auto-scroll through the images
+      var currentImageIndex = 0;
+      var timer = setInterval(function() {
+        currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+        imgElement.src = imageUrls[currentImageIndex];
+      }, 3000);
+  
+      // Append the gallery div to the galleryPopup element
+      galleryPopup.appendChild(galleryDiv);
+    });
+  </script>
+  
 </body>
 
 </html>
