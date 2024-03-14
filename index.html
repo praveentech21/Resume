@@ -1,1184 +1,1292 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai Praveen</title>
+    <link
+      rel="shortcut icon"
+      href="Bhavani/images/logo.ico"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="Bhavani/css/plugins.css" />
+    <link rel="stylesheet" href="Bhavani/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/0b7c9f51a0.js"
+      crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sai Praveen</title>
-  <link rel="shortcut icon" href="Bhavani/images/logo.ico" type="image/x-icon">
-  <link rel="stylesheet" href="Bhavani/css/plugins.css">
-  <link rel="stylesheet" href="Bhavani/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="https://kit.fontawesome.com/0b7c9f51a0.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <main>
+      <!-- Aside Bar Started Shiva -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="Bhavani/images/SaiPraveen.png"
+              alt="Sai Praveen"
+              width="80" />
+          </figure>
 
-<body>
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Sai Praveen</h1>
 
-  <main>
-    <!-- Aside Bar Started Shiva -->
-    <aside class="sidebar" data-sidebar>
+            <a href="Bhavani/Shiva/SaiPraveenResume.pdf">
+              <p
+                class="title"
+                id="rama"
+                onmouseenter="rama()"
+                onmouseleave="krishna()">
+                Software Developer
+              </p>
+            </a>
+            <script>
+              function rama() {
+                document.getElementById("rama").innerHTML = "Download CV";
+              }
+              function krishna() {
+                document.getElementById("rama").innerHTML =
+                  "Software Developer";
+              }
+            </script>
+          </div>
 
-      <div class="sidebar-info">
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-        <figure class="avatar-box">
-          <img src="Bhavani/images/SaiPraveen.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Sai Praveen CH</h1>
-
-          <a href="Bhavani/Shiva/SaiPraveenResume.pdf"><p class="title" id="rama" onmouseenter="rama()" onmouseleave="krishna()" >Software Developer</p></a> 
-          <script>
-            function rama(){
-              document.getElementById('rama').innerHTML = "Download CV";
-            }
-            function krishna(){
-              document.getElementById('rama').innerHTML = "Software Developer";
-            }
-          </script>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:praveen21.tech@gmail.com" class="contact-link">praveen21.tech@gmail.com</a>
-              <!-- this is a Mail Shiva  -->
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:9052727402" class="contact-link">91 9052727402</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">Nov 21, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Bhimavaram, Andhra, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          
-          <li class="social-item">
-            <a href="http://www.saipraveen.tech/" target="_blank" class="social-link">
-              <i class="fa-solid fa-earth-americas fa-bounce" style="color: #ffffff;"></i>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/praveentech21" target="_blank" class="social-link">
-              <i class="fa-brands fa-github fa-bounce" style="color: #ffffff;"></i>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/praveentech21/" target="_blank" class="social-link">
-              <i class="fa-brands fa-linkedin-in fa-bounce" style="color: #ffffff;"></i>
-            </a>
-          </li>
-          
-          <li class="social-item">
-            <a href="https://www.instagram.com/saipraveen_ch/" target="_blank" class="social-link">
-              <i class="fa-brands fa-instagram fa-bounce" style="color: #ffffff;"></i>
-            </a>
-          </li>
-          
-        </ul>
-
-      </div>
-
-    </aside>
-    <!-- Aside Bar Ended -->
-
-    <!-- Main Content Started Shiva -->
-    <div class="main-content">
-      <!-- Nav Bar -->
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Praveen</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-      <!-- About Bar Started Shiva -->
-      <article class="about  active" data-page="praveen">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Hi Everyone! <b>I am Ravi Kumar Satya Sai Praveen Chatrathi</b> currently pursuing my second year BTech in Computer Science and Designing at SRKR Engineering College, Bhimavaram.
-            I am very Passionate about <b>Technology</b> and <b>Bussiness Managment</b>. <br> I had my own Startup in College named "<b>SRKR Campus Online</b>". A Perorder base Home Food Providing service to SRKR College Students from Household Women's.
-          </p>
-
-          <p>
-            A part from my Start up I am doing Intenship in a Small Startup <b>Bhimavaram Online</b> from 18 Months as a <b> Lead Tech Support</b>(Console Manager), <b>Delivary Managment</b>. and <b> Adding New Stores</b> by Approching Store Merchants  <br>
-            As a Tech Enthusiastic Person I had Develpoed few Websites like SRKR College Couselling Automation, Lunch Box, SriRama Sweets, Geethika School and few more.
-          </p>
-        </section>
-
-        <!-- Services Started Shiva -->
-        <section class="service">
-
-          <h3 class="h3 service-title">My Achivements</h3>
-
-          <ul class="service-list">
-            
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="Bhavani/images/campuscafe.png" alt="design icon" width="40">
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">CAMPUS ONLINE</h4>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-                <p class="service-item-text">Managing Director Of SRKR Campus Cafe <b>Dept. Startup</b></p>
+                <a href="mailto:praveen21.tech@gmail.com"
+                  class="contact-link">praveen21.tech@gmail.com</a>
+                <!-- this is a Mail Shiva  -->
               </div>
-
             </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="Bhavani/images/prajwalan.png" alt="Web development icon" width="40">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">PRAJWALAN2K23</h4>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-                <p class="service-item-text">
-                  2 nd Price at Prajawanalan, a National Hackathon at SRKR for Our <b>Lunch Box</b>
-                </p>
+                <a href="tel:9052727402" class="contact-link">91 9052727402</a>
               </div>
-
-            </li>
-            <script>
-              const serviceItem = document.querySelector('.service-item');
-
-serviceItem.addEventListener('click', () => {
-  alert('Popup Message Here');
-});
-            </script>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="Bhavani/images/startupexpo.png" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">START-UP-EXPO</h4>
-
-                <p class="service-item-text">
-                  Winners of <b>VULCANZY</b> 2K23 START-UP-EXPO at NIT AP 
-                </p>
-              </div>
-
             </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="Bhavani/images/pythonclass.png" alt="camera icon" width="40">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Python Class to Juniors</h4>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-                <p class="service-item-text">
-                  Our Team had handeled Python Course for my Juniors at two two
-                </p>
+                <time datetime="1982-06-23">Nov 21, 2003</time>
               </div>
-
             </li>
 
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bhimavaram, Andhra, India</address>
+              </div>
+            </li>
           </ul>
 
-        </section>
+          <div class="separator"></div>
 
-        <!-- testimonials Started Shiva  -->
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Skills</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="Bhavani/images/programing.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Programming</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Java, C,  Python, PHP, Java Script, Data Sturchers <br>
-                    I am proficient in programming and I had developed few applications, scripts using these Programing Skills. I am able to Solve Real time Problems using Data Sturchers.
-                  </p>
-                </div>
-
-              </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="http://saipraveen.free.nf"
+                target="_blank"
+                class="social-link">
+                <i
+                  class="fa-solid fa-earth-americas fa-bounce"
+                  style="color: #ffffff"></i>
+              </a>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="Bhavani/images/DesigneThinking.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Designe Thinking</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    User Centric Problem Solving Approching to get the Best Solution for the Problem<br>
-                    As Part of our Acedmics we had Learned Designe Thinking Course, which I use to Solve Home Food Problem in Our College and Which Leads to Start Our Own StartUP at my two-one
-                  </p>
-                </div>
-
-              </div>
+            <li class="social-item">
+              <a
+                href="https://github.com/praveentech21"
+                target="_blank"
+                class="social-link">
+                <i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #ffffff"></i>
+              </a>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="Bhavani/images/CreticalThinking.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cretical Thinking</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Finding the Solution for the Problem at that Particular Time while Doing Some Thing at Real Time<br>
-                    As per the Experience I had while Runing <b>Campus Cafe</b> and Solving Problems at <b>Bhimavaram Online</b> I can Solve the Real Time Problems at that Cretical Time.
-                  </p>
-                </div>
-
-              </div>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/praveentech21/"
+                target="_blank"
+                class="social-link">
+                <i
+                  class="fa-brands fa-linkedin-in fa-bounce"
+                  style="color: #ffffff"></i>
+              </a>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="Bhavani/images/frameworks.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Frameworks</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    React.js, Node.js, Android SDK , ionic, Boostrap, Mearn Stack <br>
-                    I had used these Frame Works in my Projects and I am Familiar with these Frameworks
-                  </p>
-                </div>
-
-              </div>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/saipraveen_ch/"
+                target="_blank"
+                class="social-link">
+                <i
+                  class="fa-brands fa-instagram fa-bounce"
+                  style="color: #ffffff"></i>
+              </a>
             </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="Bhavani/images/database.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Databases</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    MYSQL <br>
-                    Mongo DB <br>
-                    I my Projects I had uses Mysql Most at the time of Begning
-                    Mostly I had used phpmyadmin Module for Controling my Database
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="Bhavani/images/tools.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Developer Tools</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                   Git, Visual Studio Code, Canva, MS Azure, MS Office, Android Studio <br>
-                    Using these Tools I had Worked faster and Learned new Things
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
           </ul>
-        
-        </section>
+        </div>
+      </aside>
+      <!-- Aside Bar Ended -->
 
-        <!-- Testimonal Modal Started Shiva -->
-        <div class="modal-container" data-modal-container>
+      <!-- Main Content Started Shiva -->
+      <div class="main-content">
+        <!-- Nav Bar -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Praveen</button>
+            </li>
 
-          <div class="overlay" data-overlay></div>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <section class="testimonials-modal">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="Bhavani/images/programing.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+        <!-- About Bar Started Shiva -->
+        <article class="about active" data-page="praveen">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-              <img src="Bhavani/images/icon-quote.svg" alt="quote icon">
-            </div>
+          <section class="about-text">
+            <p>
+              Hi Everyone!
+              <b>I am Ravi Kumar Satya Sai Praveen Chatrathi</b> currently
+              pursuing my Third year BTech in Computer Science and Designing at
+              SRKR Engineering College, Bhimavaram. I am very Passionate about
+              <b>Technology</b> and <b>Bussiness Managment</b>.
+              I had my own Startup in College named "<b>SRKR Campus Online</b>".
+              which aims to full fill the gaps between Industrys and College.
+              And to improve entirpuner skills in students by solving real time
+              problems. <br />
+            </p>
 
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
+            <p>
+              A part from my Start up I am doing Intenship in a Small Startup
+              <b>Bhimavaram Online</b> from Feb 2022 as a
+              <b> Lead Tech Support</b>(Console Manager),
+              <b>Delivary Managment</b>. and <b> Adding New Stores</b> by
+              Approching Store Merchants <br />
+              As a Tech Enthusiastic Person I had Develpoed few Websites like
+              SRKR CampusOnline, Lunch Box, Spell Bee,
+              Geethika School and few more.
+            </p>
           </section>
 
-        </div>
+          <!-- Services Started Shiva -->
+          <section class="service">
+            <h3 class="h3 service-title">My Achivements</h3>
 
-        <!-- Clients Started Shiva -->
-        <section class="clients">
-          <!-- Game Same Effect as Testnomial Modal -->
-          <h3 class="h3 clients-title">Services</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="Bhavani/images/campuscafe.png"
+                    alt="design icon"
+                    width="40" />
+                </div>
 
-          <ul class="clients-list has-scrollbar">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">CAMPUS ONLINE</h4>
 
-            <li class="clients-item">
-              <a href="#" title="Web Development">
-                <img src="Bhavani/images/WebDevelopment.png" alt="client logo">
-              </a>
-            </li>
+                  <p class="service-item-text">
+                    Founder Of SRKR Campus Online.
+                  </p>
+                </div>
+              </li>
 
-            <li class="clients-item">
-              <a href="#" title="Android Development">
-                <img src="Bhavani/images/AndroidDevelopment.png" alt="client logo">
-              </a>
-            </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="Bhavani/images/prajwalan.png"
+                    alt="Web development icon"
+                    width="40" />
+                </div>
 
-            <li class="clients-item">
-              <a href="#" title="Software Development">
-                <img src="Bhavani/images/softwareDevelopment.png" alt="client logo">
-              </a>
-            </li>
-            
-            <li class="clients-item">
-              <a href="#" title="Game Development">
-                <img src="Bhavani/images/GameDevelopment.png" alt="client logo">
-              </a>
-            </li>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">PRAJWALAN2K23</h4>
 
-            <li class="clients-item">
-              <a href="#" title="Machine Learning">
-                <img src="Bhavani//images/MachineLearning.png" alt="client logo">
-              </a>
-            </li>
+                  <p class="service-item-text">
+                    2 nd Price at Prajawanalan, a National Hackathon at SRKR for
+                    Our <b>Lunch Box</b>
+                  </p>
+                </div>
+              </li>
 
-            <li class="clients-item">
-              <a href="#" title="Data Analysis">
-                <img src="Bhavani/images/DataAnalysis.png" alt="client logo">
-              </a>
-            </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="Bhavani/images/startupexpo.png"
+                    alt="mobile app icon"
+                    width="40" />
+                </div>
 
-            <li class="clients-item">
-              <a href="#" title="Content Creation">
-                <img src="Bhavani/images/ContentCreation.png" alt="client logo">
-              </a>
-            </li>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">START-UP-EXPO</h4>
 
-          </ul>
+                  <p class="service-item-text">
+                    Winners of <b>VULCANZY</b> 2K23 START-UP-EXPO at NIT AP
+                  </p>
+                </div>
+              </li>
 
-        </section>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="Bhavani/images/pythonclass.png"
+                    alt="camera icon"
+                    width="40" />
+                </div>
 
-      </article>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Python Class to Juniors</h4>
 
-      <!-- Resume Started Shiva -->
-      <article class="resume" data-page="resume">
+                  <p class="service-item-text">
+                    Our Team had handeled Python Course for my Juniors at two
+                    two
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <!-- testimonials Started Shiva  -->
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Skills</h3>
 
-        <section class="timeline">
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="Bhavani/images/programing.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar />
+                  </figure>
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title>
+                    Programming
+                  </h4>
 
-            <h3 class="h3">Education</h3>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Java, C, Python, PHP, Java Script, Data Sturchers <br />
+                      I am proficient in programming and I had developed few
+                      applications, scripts using these Programing Skills. I am
+                      able to Solve Real time Problems using Data Sturchers.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="Bhavani/images/DesigneThinking.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title>
+                    Designe Thinking
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      User Centric Problem Solving Approching to get the Best
+                      Solution for the Problem<br />
+                      As Part of our Acedmics we had Learned Designe Thinking
+                      Course, which I use to Solve Home Food Problem in Our
+                      College and Which Leads to Start Our Own StartUP at my
+                      two-one
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="Bhavani/images/CreticalThinking.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title>
+                    Cretical Thinking
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Finding the Solution for the Problem at that Particular
+                      Time while Doing Some Thing at Real Time<br />
+                      As per the Experience I had while Runing
+                      <b>Campus Cafe</b> and Solving Problems at
+                      <b>Bhimavaram Online</b> I can Solve the Real Time
+                      Problems at that Cretical Time.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="Bhavani/images/frameworks.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title>
+                    Frameworks
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      React.js, Node.js, Android SDK , ionic, Boostrap, Mearn
+                      Stack <br />
+                      I had used these Frame Works in my Projects and I am
+                      Familiar with these Frameworks
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="Bhavani/images/database.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title>
+                    Databases
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      MYSQL <br />
+                      Mongo DB <br />
+                      I my Projects I had uses Mysql Most at the time of Begning
+                      Mostly I had used phpmyadmin Module for Controling my
+                      Database
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="Bhavani/images/tools.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title>
+                    Developer Tools
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Git, Visual Studio Code, Canva, MS Azure, MS Office,
+                      Android Studio <br />
+                      Using these Tools I had Worked faster and Learned new
+                      Things
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Testimonal Modal Started Shiva -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="Bhavani/images/programing.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img />
+                </figure>
+
+                <img src="Bhavani/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
           </div>
 
-          <ol class="timeline-list">
+          <!-- Clients Started Shiva -->
+          <section class="clients">
+            <!-- Game Same Effect as Testnomial Modal -->
+            <h3 class="h3 clients-title">Services</h3>
 
-            <li class="timeline-item">
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#" title="Web Development">
+                  <img
+                    src="Bhavani/images/WebDevelopment.png"
+                    alt="client logo" />
+                </a>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Bachelors in Computer Science and Design</h4>
+              <li class="clients-item">
+                <a href="#" title="Android Development">
+                  <img
+                    src="Bhavani/images/AndroidDevelopment.png"
+                    alt="client logo" />
+                </a>
+              </li>
 
-              <span>2021 — 2025</span>
+              <li class="clients-item">
+                <a href="#" title="Software Development">
+                  <img
+                    src="Bhavani/images/softwareDevelopment.png"
+                    alt="client logo" />
+                </a>
+              </li>
 
-              <p class="timeline-text">
-                I am Pursuing my Btech Second Year in the Stream of Computer Science and Design at Sagi Rama Krishna Raju Engineering College, Bhimavaram with <b>77 Percentage</b>.
-              </p>
+              <li class="clients-item">
+                <a href="#" title="Game Development">
+                  <img
+                    src="Bhavani/images/GameDevelopment.png"
+                    alt="client logo" />
+                </a>
+              </li>
 
-            </li>
+              <li class="clients-item">
+                <a href="#" title="Machine Learning">
+                  <img
+                    src="Bhavani//images/MachineLearning.png"
+                    alt="client logo" />
+                </a>
+              </li>
 
-            <li class="timeline-item">
+              <li class="clients-item">
+                <a href="#" title="Data Analysis">
+                  <img
+                    src="Bhavani/images/DataAnalysis.png"
+                    alt="client logo" />
+                </a>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Senoir High School (Plus Two)</h4>
-              <span>2019 — 2021</span>
+              <li class="clients-item">
+                <a href="#" title="Content Creation">
+                  <img
+                    src="Bhavani/images/ContentCreation.png"
+                    alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-              <p class="timeline-text">
-                I had Completed my Plus Two in the Stream of Maths, Physics and Chemistry at Aditya Junior College Palakol with <b>91 Percentage</b>
-              </p>
+        <!-- Resume Started Shiva -->
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-            </li>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Schooling</h4>
-
-              <span>2003 — 2018</span>
-
-              <p class="timeline-text">
-                I had Completed my Primary Education (Tenth Standed) at Zilla Parishad High School Tholeru with <b>88 Percentage</b>.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelors in Computer Science and Design
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2021 — 2025</span>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Managing Director of Campus Online</h4>
-
-              <span>2023 — Present</span>
-
-              <p class="timeline-text">
-                Managing Director of Camous Online, own Startup at our College which Provieds Home Food to College our Student
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Leading Tech Support for Bhimavaram Online</h4>
-
-              <span>2022 — Present</span>
-
-              <p class="timeline-text">
-                Console Managment for Bhimavaram Online App that Manages all Stores, Orders , Customers Details and Order Flow of Orders in Bhimavaram Online
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Team Leard for Data Pairates</h4>
-
-              <span>2021 — 2022</span>
-
-              <p class="timeline-text">
-                Data parites is a 9 Member Team which was formed in our Department to learn Team Work and New Skills
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Programing</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Problem Solving</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Critical Thinking</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Team Work</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!-- Portfolio Started Shiva -->
-      <article class="portfolio" data-page="projects">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+                <p class="timeline-text">
+                  I am Pursuing my Btech Second Year in the Stream of Computer
+                  Science and Design at Sagi Rama Krishna Raju Engineering
+                  College, Bhimavaram with <b>77 Percentage</b>.
+                </p>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web design</button>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senoir High School (Plus Two)
+                </h4>
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  I had Completed my Plus Two in the Stream of Maths, Physics
+                  and Chemistry at Aditya Junior College Palakol with
+                  <b>91 Percentage</b>
+                </p>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Schooling</h4>
+
+                <span>2003 — 2018</span>
+
+                <p class="timeline-text">
+                  I had Completed my Primary Education (Tenth Standed) at Zilla
+                  Parishad High School Tholeru with <b>88 Percentage</b>.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Managing Director of Campus Online
+                </h4>
+
+                <span>2023 — Present</span>
+
+                <p class="timeline-text">
+                  Managing Director of Camous Online, own Startup at our College
+                  which Provieds Home Food to College our Student
+                </p>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Leading Tech Support for Bhimavaram Online
+                </h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">
+                  Console Managment for Bhimavaram Online App that Manages all
+                  Stores, Orders , Customers Details and Order Flow of Orders in
+                  Bhimavaram Online
+                </p>
               </li>
 
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Team Leard for Data Pairates
+                </h4>
+
+                <span>2021 — 2022</span>
+
+                <p class="timeline-text">
+                  Data parites is a 9 Member Team which was formed in our
+                  Department to learn Team Work and New Skills
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Programing</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Problem Solving</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Critical Thinking</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Team Work</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Portfolio Started Shiva -->
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
             </ul>
 
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="Bhavani/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!-- BLog Started Shiva -->
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="Bhavani/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
                 </div>
 
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="Bhavani/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
                 </div>
+              </button>
 
-              </a>
-            </li>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
 
-                <figure class="blog-banner-box">
-                  <img src="Bhavani/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
 
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="Bhavani/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="Bhavani/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="Bhavani/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!-- Content Started Shiva -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+                    <img
+                      src="Bhavani/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy" />
+                  </figure>
 
-          </form>
+                  <h3 class="project-title">Finance</h3>
 
-        </section>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
 
-      </article>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-    </div>
+                    <img
+                      src="Bhavani/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy" />
+                  </figure>
 
-  </main>
-  
-  <script src="Bhavani/js/script.js"></script>
+                  <h3 class="project-title">Orizon</h3>
 
-  <!--
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-7.png"
+                      alt="summary"
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="Bhavani/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- BLog Started Shiva -->
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="Bhavani/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="Bhavani/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="Bhavani/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="Bhavani/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="Bhavani/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="Bhavani/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Content Started Shiva -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="Bhavani/js/script.js"></script>
+
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script>
-    // Define array of image URLs
-    var imageUrls = ['http://pranavteja.tech/img/profilepic.jpg', 'http://saipraveen.tech/Bhavani/images/SaiPraveen.png', 'http://pranavteja.tech/img/profilepic.jpg'];
-  
-    // Get the galleryPopup element
-    var galleryPopup = document.querySelector('#galleryPopup');
-  
-    // Add event listener to the li element
-    var liElement = document.querySelector('.service-item');
-    liElement.addEventListener('click', function() {
-      // Create a new div to hold the image gallery
-      var galleryDiv = document.createElement('div');
-      galleryDiv.classList.add('gallery-div');
-  
-      // Create a new img element and append it to the gallery div
-      var imgElement = document.createElement('img');
-      galleryDiv.appendChild(imgElement);
-  
-      // Set the initial image URL
-      imgElement.src = imageUrls[0];
-  
-      // Set up a timer to auto-scroll through the images
-      var currentImageIndex = 0;
-      var timer = setInterval(function() {
-        currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
-        imgElement.src = imageUrls[currentImageIndex];
-      }, 3000);
-  
-      // Append the gallery div to the galleryPopup element
-      galleryPopup.appendChild(galleryDiv);
-    });
-  </script>
-  
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      // Define array of image URLs
+      var imageUrls = [
+        "http://pranavteja.tech/img/profilepic.jpg",
+        "http://saipraveen.tech/Bhavani/images/SaiPraveen.png",
+        "http://pranavteja.tech/img/profilepic.jpg",
+      ];
 
+      // Get the galleryPopup element
+      var galleryPopup = document.querySelector("#galleryPopup");
+
+      // Add event listener to the li element
+      var liElement = document.querySelector(".service-item");
+      liElement.addEventListener("click", function () {
+        // Create a new div to hold the image gallery
+        var galleryDiv = document.createElement("div");
+        galleryDiv.classList.add("gallery-div");
+
+        // Create a new img element and append it to the gallery div
+        var imgElement = document.createElement("img");
+        galleryDiv.appendChild(imgElement);
+
+        // Set the initial image URL
+        imgElement.src = imageUrls[0];
+
+        // Set up a timer to auto-scroll through the images
+        var currentImageIndex = 0;
+        var timer = setInterval(function () {
+          currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+          imgElement.src = imageUrls[currentImageIndex];
+        }, 3000);
+
+        // Append the gallery div to the galleryPopup element
+        galleryPopup.appendChild(galleryDiv);
+      });
+    </script>
+  </body>
 </html>
